@@ -27,7 +27,7 @@ const HomePage = () => {
               and data-driven insights. Let our AI guide you to professional success.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up">
-              <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4">
+              <Button asChild variant="hero" size="lg" className="text-lg px-8 py-4 animate-bounce">
                 <Link to="/assessment">
                   Start Your Assessment
                   <ArrowRight className="w-5 h-5" />
